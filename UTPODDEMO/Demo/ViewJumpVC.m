@@ -1,37 +1,23 @@
 //
-//  DemoVC.m
+//  ViewJumpVC.m
 //  UTPODDEMO
 //
 //  Created by lupeihan on 28/12/17.
 //  Copyright © 2017 lupeihan. All rights reserved.
 //
 
-#import "DemoVC.h"
 #import "ViewJumpVC.h"
 
-@interface DemoVC ()
+@interface ViewJumpVC ()
 
 @end
 
-@implementation DemoVC
+@implementation ViewJumpVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    
-    
 }
-
-
-- (IBAction)btnJump:(id)sender
-{
-    ViewJumpVC *vc = [[ViewJumpVC alloc] init];
-    
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

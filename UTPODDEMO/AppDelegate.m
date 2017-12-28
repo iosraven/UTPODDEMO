@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "DemoVC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[DemoVC new]];
+    
+    
+    self.window.rootViewController = navi;
+    
+    [self.window makeKeyAndVisible];
+
+    
+    
+    
     return YES;
 }
 

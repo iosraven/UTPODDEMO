@@ -16,6 +16,9 @@
 		514354AC1FF4BDA2001D0A50 /* DemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 514354AA1FF4BDA2001D0A50 /* DemoVC.m */; };
 		514354AD1FF4BDA2001D0A50 /* DemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514354AB1FF4BDA2001D0A50 /* DemoVC.xib */; };
 		514354AF1FF4BE14001D0A50 /* nilu.png in Resources */ = {isa = PBXBuildFile; fileRef = 514354AE1FF4BE14001D0A50 /* nilu.png */; };
+		51CD00CF1FF4E5E00007BE2E /* huoying.JPEG in Resources */ = {isa = PBXBuildFile; fileRef = 51CD00CE1FF4E5E00007BE2E /* huoying.JPEG */; };
+		51CD00D31FF4E6010007BE2E /* ViewJumpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CD00D11FF4E6010007BE2E /* ViewJumpVC.m */; };
+		51CD00D41FF4E6010007BE2E /* ViewJumpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CD00D21FF4E6010007BE2E /* ViewJumpVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,10 @@
 		514354AA1FF4BDA2001D0A50 /* DemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoVC.m; sourceTree = "<group>"; };
 		514354AB1FF4BDA2001D0A50 /* DemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoVC.xib; sourceTree = "<group>"; };
 		514354AE1FF4BE14001D0A50 /* nilu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nilu.png; sourceTree = "<group>"; };
+		51CD00CE1FF4E5E00007BE2E /* huoying.JPEG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huoying.JPEG; sourceTree = "<group>"; };
+		51CD00D01FF4E6010007BE2E /* ViewJumpVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewJumpVC.h; sourceTree = "<group>"; };
+		51CD00D11FF4E6010007BE2E /* ViewJumpVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewJumpVC.m; sourceTree = "<group>"; };
+		51CD00D21FF4E6010007BE2E /* ViewJumpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewJumpVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,10 +56,14 @@
 		51090F0D1FEBA86300794538 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				51CD00CE1FF4E5E00007BE2E /* huoying.JPEG */,
 				514354AE1FF4BE14001D0A50 /* nilu.png */,
 				514354A91FF4BDA2001D0A50 /* DemoVC.h */,
 				514354AA1FF4BDA2001D0A50 /* DemoVC.m */,
 				514354AB1FF4BDA2001D0A50 /* DemoVC.xib */,
+				51CD00D01FF4E6010007BE2E /* ViewJumpVC.h */,
+				51CD00D11FF4E6010007BE2E /* ViewJumpVC.m */,
+				51CD00D21FF4E6010007BE2E /* ViewJumpVC.xib */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -148,11 +159,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CD00D41FF4E6010007BE2E /* ViewJumpVC.xib in Resources */,
 				5136CB601FE7B85F00C449C0 /* LaunchScreen.storyboard in Resources */,
 				514354AF1FF4BE14001D0A50 /* nilu.png in Resources */,
 				514354AD1FF4BDA2001D0A50 /* DemoVC.xib in Resources */,
 				5136CB5D1FE7B85F00C449C0 /* Assets.xcassets in Resources */,
 				5136CB5B1FE7B85F00C449C0 /* Main.storyboard in Resources */,
+				51CD00CF1FF4E5E00007BE2E /* huoying.JPEG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +180,7 @@
 				514354AC1FF4BDA2001D0A50 /* DemoVC.m in Sources */,
 				5136CB631FE7B85F00C449C0 /* main.m in Sources */,
 				5136CB551FE7B85F00C449C0 /* AppDelegate.m in Sources */,
+				51CD00D31FF4E6010007BE2E /* ViewJumpVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
