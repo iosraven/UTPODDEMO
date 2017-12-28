@@ -13,6 +13,9 @@
 		5136CB5D1FE7B85F00C449C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5136CB5C1FE7B85F00C449C0 /* Assets.xcassets */; };
 		5136CB601FE7B85F00C449C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5136CB5E1FE7B85F00C449C0 /* LaunchScreen.storyboard */; };
 		5136CB631FE7B85F00C449C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5136CB621FE7B85F00C449C0 /* main.m */; };
+		514354AC1FF4BDA2001D0A50 /* DemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 514354AA1FF4BDA2001D0A50 /* DemoVC.m */; };
+		514354AD1FF4BDA2001D0A50 /* DemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514354AB1FF4BDA2001D0A50 /* DemoVC.xib */; };
+		514354AF1FF4BE14001D0A50 /* nilu.png in Resources */ = {isa = PBXBuildFile; fileRef = 514354AE1FF4BE14001D0A50 /* nilu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		5136CB5F1FE7B85F00C449C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5136CB611FE7B85F00C449C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5136CB621FE7B85F00C449C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		514354A91FF4BDA2001D0A50 /* DemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoVC.h; sourceTree = "<group>"; };
+		514354AA1FF4BDA2001D0A50 /* DemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoVC.m; sourceTree = "<group>"; };
+		514354AB1FF4BDA2001D0A50 /* DemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoVC.xib; sourceTree = "<group>"; };
+		514354AE1FF4BE14001D0A50 /* nilu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nilu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51090F0D1FEBA86300794538 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				514354AE1FF4BE14001D0A50 /* nilu.png */,
+				514354A91FF4BDA2001D0A50 /* DemoVC.h */,
+				514354AA1FF4BDA2001D0A50 /* DemoVC.m */,
+				514354AB1FF4BDA2001D0A50 /* DemoVC.xib */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		5136CB471FE7B85F00C449C0 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +76,7 @@
 		5136CB521FE7B85F00C449C0 /* UTPODDEMO */ = {
 			isa = PBXGroup;
 			children = (
+				51090F0D1FEBA86300794538 /* Demo */,
 				5136CB531FE7B85F00C449C0 /* AppDelegate.h */,
 				5136CB541FE7B85F00C449C0 /* AppDelegate.m */,
 				5136CB561FE7B85F00C449C0 /* ViewController.h */,
@@ -130,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5136CB601FE7B85F00C449C0 /* LaunchScreen.storyboard in Resources */,
+				514354AF1FF4BE14001D0A50 /* nilu.png in Resources */,
+				514354AD1FF4BDA2001D0A50 /* DemoVC.xib in Resources */,
 				5136CB5D1FE7B85F00C449C0 /* Assets.xcassets in Resources */,
 				5136CB5B1FE7B85F00C449C0 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5136CB581FE7B85F00C449C0 /* ViewController.m in Sources */,
+				514354AC1FF4BDA2001D0A50 /* DemoVC.m in Sources */,
 				5136CB631FE7B85F00C449C0 /* main.m in Sources */,
 				5136CB551FE7B85F00C449C0 /* AppDelegate.m in Sources */,
 			);
@@ -281,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQNZ85QPJM;
 				INFOPLIST_FILE = UTPODDEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ut.com.UTPODDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQNZ85QPJM;
 				INFOPLIST_FILE = UTPODDEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ut.com.UTPODDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
